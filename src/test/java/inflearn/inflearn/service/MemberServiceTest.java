@@ -30,7 +30,7 @@ class MemberServiceTest {
     void join() {
         //given
         Member member = new Member();
-        member.setName("hello");
+        member.setName("sprintf");
 
         //when
         Long saveId = memberService.join(member);
@@ -60,11 +60,11 @@ class MemberServiceTest {
 //        }
     }
 
-    @Test
-    void findMembers() {
-    }
-
-    @Test
-    void findById() {
-    }
+//    @Test
+//    void findMembers() {
+//    }
+//
+//    @Test
+//    void findById() {
+//    }
 }
